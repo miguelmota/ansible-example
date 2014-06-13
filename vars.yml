@@ -1,4 +1,5 @@
 ---
+# Update this to your own settings
 project_name: test
 project_root: /var/www/test
 project_repo: git@github.com:miguelmota/test-repo.git

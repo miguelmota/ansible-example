@@ -1,0 +1,19 @@
+# Replace 0.0.0.0 with your server ip
+
+[remote:children]
+production
+staging
+
+[servers:children]
+production
+staging
+local
+
+[production]
+0.0.0.0 nickname=production vm=0 branch=stable
+
+[staging]
+0.0.0.0 nickname=staging vm=0 branch=staging
+
+[local]
+localhost nickname=local vm=0 branch=development
