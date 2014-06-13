@@ -1,8 +1,4 @@
 ---
 project_name: test
 project_root: /var/www/test
-project_repo: git@bitbucket.org:miguelmota/test.git
-system_packages:
-  - build-essential
-  - git
-  - libevent-dev
+project_repo: git@github.com:miguelmota/test-repo.git
