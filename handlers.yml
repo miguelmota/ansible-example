@@ -1,0 +1,4 @@
+---
+-   name: restart webserver
+    action: command echo "do something"
+    sudo_user: root

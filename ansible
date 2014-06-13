@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Run with:
+# ./ansible --limit staging deploy.yml
+
+/usr/bin/env ansible-playbook -i hosts "$@"
