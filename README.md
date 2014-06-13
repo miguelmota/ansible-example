@@ -1,6 +1,6 @@
 # Ansible Example
 
-Basic example on deploying with git.
+Basic [Ansible](http://docs.ansible.com/) example on deploying with git.
 
 ```bash
 ./ansible --limit staging deploy.yml
